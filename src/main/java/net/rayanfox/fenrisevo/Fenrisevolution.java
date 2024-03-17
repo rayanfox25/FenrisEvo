@@ -2,6 +2,7 @@ package net.rayanfox.fenrisevo;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.rayanfox.fenrisevo.block.ModBlocks;
 import net.rayanfox.fenrisevo.item.ModItemGroups;
 import net.rayanfox.fenrisevo.item.ModItems;
 import org.slf4j.Logger;
@@ -14,7 +15,9 @@ public class Fenrisevolution implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 		LOGGER.info("Evolving Fennecs Scree");
 	}
