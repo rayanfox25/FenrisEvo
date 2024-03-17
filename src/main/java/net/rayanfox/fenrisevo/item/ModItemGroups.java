@@ -15,10 +15,20 @@ public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GRO
         new Identifier(Fenrisevolution.MOD_ID, "ruby" ),
         FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
                 .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
+
+                    //items
+                    entries.add(ModItems.DEBUG);
                     entries.add(ModItems.RUBY);
                     entries.add(ModItems.RAW_RUBY);
+                    entries.add(ModItems.FENITE);
+                    entries.add(ModItems.PINK_POW);
+
+                    //blocks
+
                     entries.add(ModBlocks.RUBY_BLOCK);
+                    entries.add(ModBlocks.FENITE_ORE);
                     entries.add(ModBlocks.RAW_RUBY_BLOCK);
+
 
 
                 }).build());

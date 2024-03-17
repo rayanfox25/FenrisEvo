@@ -17,10 +17,16 @@ public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
 
+    public static final Item FENITE = registerItem("fenite", new Item(new FabricItemSettings()));
+    public static final Item PINK_POW = registerItem("pink_pow", new Item(new FabricItemSettings()));
+    public static final Item DEBUG = registerItem("debug", new Item(new FabricItemSettings()));
+
     private static void addItemsToIngrendientTabItemGroup(FabricItemGroupEntries entries){
         entries.add(RUBY);
         entries.add(RAW_RUBY);
+        entries.add(FENITE);
         entries.add(ModBlocks.RUBY_BLOCK);
+        entries.add(ModBlocks.RAW_RUBY_BLOCK);
 
     }
     private static Item registerItem(String name, Item item){
