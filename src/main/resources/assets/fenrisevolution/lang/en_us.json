@@ -3,7 +3,7 @@
   "item.fenrisevolution.raw_ruby": "Raw Ruby",
 
   "block.fenrisevolution.ruby_block": "Block Of Ruby",
-  "block.fenrisevolution.ruby_block": "Block Of  Raw Ruby",
+  "block.fenrisevolution.raw_ruby_block": "Block Of  Raw Ruby",
   "itemgroup.ruby": "Ruby Gem Group"
 
 }
