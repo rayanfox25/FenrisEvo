@@ -1,7 +1,16 @@
 {
   "item.fenrisevolution.ruby": "Ruby",
   "item.fenrisevolution.raw_ruby": "Raw Ruby",
+  "item.fenrisevolution.debug": "Debug(WIP)",
+  "item.fenrisevolution.fenite": "Fenite",
+  "item.fenrisevolution.pink_pow": "Pink Diamond (WIP)",
+  "item.fenrisevolution.fenite_ingot": "Fenite Ingot (WIP)",
+  "item.fenrisevolution.fenite_nugget": "Fenite Nugget (WIP)",
 
+
+
+
+  "block.fenrisevolution.fenite_ore": "Fenite Ore",
   "block.fenrisevolution.ruby_block": "Block Of Ruby",
   "block.fenrisevolution.raw_ruby_block": "Block Of  Raw Ruby",
   "itemgroup.ruby": "Ruby Gem Group"

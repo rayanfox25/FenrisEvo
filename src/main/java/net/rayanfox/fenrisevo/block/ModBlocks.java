@@ -19,6 +19,12 @@ public static final Block RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
     new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.TUFF)));
 public static final Block FENITE_ORE = registerBlock("fenite_ore",
     new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.TUFF)));
+    public static final Block FENITE_BlOCK = registerBlock("fenite_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block PINK_BlOCK = registerBlock("pink_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BlOCK = registerBlock("crystal_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
 private static Block registerBlock(String name, Block block){
     registerBlockItem(name , block);
