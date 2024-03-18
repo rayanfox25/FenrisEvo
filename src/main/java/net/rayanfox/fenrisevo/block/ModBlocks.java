@@ -22,8 +22,10 @@ public static final Block FENITE_ORE = registerBlock("fenite_ore",
     public static final Block FENITE_BlOCK = registerBlock("fenite_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     public static final Block PINK_BlOCK = registerBlock("pink_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).sounds(BlockSoundGroup.AMETHYST_BLOCK).luminance(state -> 15)));
     public static final Block CRYSTAL_BlOCK = registerBlock("crystal_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block FENITE_BlOCK_DECO = registerBlock("fenite_block_deco",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
 private static Block registerBlock(String name, Block block){

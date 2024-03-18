@@ -34,6 +34,8 @@ public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GRO
                     entries.add(ModBlocks.RAW_RUBY_BLOCK);
                     entries.add(ModBlocks.FENITE_BlOCK);
                     entries.add(ModBlocks.PINK_BlOCK);
+                    entries.add(ModBlocks.CRYSTAL_BlOCK);
+                    entries.add(ModBlocks.FENITE_BlOCK_DECO);
 
 
 
