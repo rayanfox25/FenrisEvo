@@ -15,5 +15,6 @@ import net.rayanfox.fenrisevo.entity.custom.FennecEntity;
 public class ModEntities {
     public static final EntityType<FennecEntity> FENNEC = Registry.register(Registries.ENTITY_TYPE,
             new Identifier(Fenrisevolution.MOD_ID, "fennec"),
-            FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, FennecEntity::new).dimensions(EntityDimensions.fixed(0.7f, 0.f)).build());
+            //HIT BOX
+            FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, FennecEntity::new).dimensions(EntityDimensions.fixed(0.5f, 1.0f)).build());
 }

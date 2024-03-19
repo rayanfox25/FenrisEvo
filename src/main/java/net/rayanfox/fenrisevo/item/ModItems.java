@@ -22,6 +22,7 @@ public class ModItems {
     public static final Item PINK_POW = registerItem("pink_pow", new Item(new FabricItemSettings()));
     public static final Item DEBUG = registerItem("debug", new Item(new FabricItemSettings()));
     public static final Item FENITE_NUGGET = registerItem("fenite_nugget", new Item(new FabricItemSettings()));
+    public static final Item RAW_FENITE = registerItem("raw_fenite", new Item(new FabricItemSettings()));
 
 
     private static void addItemsToIngrendientTabItemGroup(FabricItemGroupEntries entries){

@@ -24,6 +24,7 @@ public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GRO
                     entries.add(ModItems.PINK_POW);
                     entries.add(ModItems.FENITE_INGOT);
                     entries.add(ModItems.FENITE_NUGGET);
+                    entries.add(ModItems.RAW_FENITE);
 
 
 

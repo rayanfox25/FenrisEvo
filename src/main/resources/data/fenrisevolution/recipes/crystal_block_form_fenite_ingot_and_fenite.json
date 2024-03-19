@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " N ",
+    "IGI",
+    " N "
+  ],
+  "key": {
+    "N": {
+      "item": "fenrisevolution:fenite_nugget"
+    },
+    "G": {
+      "item": "fenrisevolution:fenite"
+    },
+    "I": {
+      "item": "fenrisevolution:fenite_ingot"
+    }
+  },
+  "result": {
+    "item": "fenrisevolution:crystal_block"
+  }
+}

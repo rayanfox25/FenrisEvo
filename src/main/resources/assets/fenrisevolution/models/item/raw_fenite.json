@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "fenrisevolution:item/fenite_nugget"
+    "layer0": "fenrisevolution:item/raw_fenite"
   }
 }
